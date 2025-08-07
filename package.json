@@ -1,0 +1,29 @@
+{
+  "name": "ejemplo-ddd-estricto",
+  "version": "1.0.0",
+  "description": "Este es un ejemplo de como sería la arquitectura usando domain driving desing de forma estricta",
+  "type":"module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-bama:bamacrisolser/ejemplo-ddd-estricto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-cloudwatch-logs": "^3.849.0",
+    "aws-xray-sdk": "^3.10.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.16.3",
+    "sequelize": "^6.37.7",
+    "winston": "^3.17.0",
+    "winston-cloudwatch": "^6.3.0"
+  }
+}
